@@ -9,10 +9,13 @@ body{
     sans-serif;
 }
 
+hr{
+    margin:2rem 0rem;
+}
+
 /** container **/
 .container{
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
 }
 .container-centered{
     max-width:600px;
@@ -25,14 +28,17 @@ body{
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-.primary-link{
+.link-Primary{
     background-color:var(--primary-color);
     border-radius: 0.5rem;
-    color:black
+    color: white
 }
 
-.secondary-link{
+.link-secondary{
     color:var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--praimary-color);
 }
+
+/** look into bem naming convention or css**/
+
