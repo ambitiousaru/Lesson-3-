@@ -42,3 +42,13 @@ hr{
 
 /** look into bem naming convention or css**/
 
+/** lists**/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: orem 0.5rem;
+}
